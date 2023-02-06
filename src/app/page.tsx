@@ -1,91 +1,54 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+"use client"; // this is a client component
 
-const inter = Inter({ subsets: ['latin'] })
+import { useState } from 'react'
+import Hiragana from './hiragana.json'
+import shuffle from './functions/shuffle'
+import NonSSRWrapper from './components/no-ssr-wrapper'
 
-export default function Home() {
+function Home() {
+  const shuffledHiragana = shuffle(Hiragana);
+  const [hiraganaArray, setHiraganaArray] = useState(shuffledHiragana);
+  const [currentHiragana, setCurrentHiragana] = useState(hiraganaArray[0]);
+  const [correct, setCorrect] = useState(0);
+  const [incorrect, setIncorrect] = useState(0);
+  const [remaining, setRemaining] = useState(Hiragana.length);
+
+  const updateKana = (e: React.FormEvent) => {
+    e.preventDefault();
+    let newHiraganaArray = hiraganaArray;
+    let userInput: string = (e.target as HTMLFormElement).kana.value;
+    if (userInput === currentHiragana.romanization) {
+        newHiraganaArray.shift();
+        newHiraganaArray = shuffle(newHiraganaArray);
+        setHiraganaArray(newHiraganaArray);
+        setCurrentHiragana(newHiraganaArray[0]);
+        setCorrect(correct => correct + 1);
+        setRemaining(remaining => remaining - 1);
+        (e.target as HTMLFormElement).reset();
+    } else {
+        const incorrectFlashcard = newHiraganaArray[0];
+        newHiraganaArray.shift();
+        newHiraganaArray.push(incorrectFlashcard);
+        newHiraganaArray = shuffle(newHiraganaArray);
+        setIncorrect(incorrect => incorrect + 1);
+        setHiraganaArray(newHiraganaArray);
+        setCurrentHiragana(newHiraganaArray[0]);
+        (e.target as HTMLFormElement).reset();
+    }
+  };
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <NonSSRWrapper>
+      <section className="min-w-full">
+        <div className="mx-auto px-10 py-5 bg-white border border-gray-200 rounded-lg shadow max-w-sm">
+          <img src={`./hiragana/${currentHiragana.char_id}`} className="mb-4 max-h-64 max-w-64"/>
+          <form onSubmit={(e) => {updateKana(e)}}>
+            <input type="text" name="kana" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mx-auto"/>
+          </form>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      </section>
+    </NonSSRWrapper>
   )
 }
+
+export default Home
