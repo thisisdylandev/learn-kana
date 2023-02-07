@@ -83,13 +83,6 @@ function Quiz() {
   const updateKana = (e: React.FormEvent) => {
     e.preventDefault();
     let newKanaArray: KanaType[] = kanaArray;
-    const testArray: KanaType[] = Array.from(kanaArray);
-    testArray.shift();
-    if (testArray.length === 0) {
-      router.push(
-        `/?correct=${correct.toString()}&incorrect=${incorrect.toString()}&remaining=0`
-      );
-    }
     const userInput: string = (e.target as HTMLFormElement).kana.value;
     if (userInput === currentKana.romanization) {
       newKanaArray.shift();
@@ -108,6 +101,11 @@ function Quiz() {
       setKanaArray(newKanaArray);
       setCurrentKana(newKanaArray[0]);
       (e.target as HTMLFormElement).reset();
+    }
+    if (kanaArray.length === 0) {
+      router.push(
+        `/?correct=${correct.toString()}&incorrect=${incorrect.toString()}&remaining=0`
+      );
     }
   };
 
