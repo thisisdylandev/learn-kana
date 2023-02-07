@@ -13,9 +13,8 @@ function Quiz() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const kana = searchParams.get('kana') === 'hiragana' ? Hiragana : Katakana
-  
-  // TODO: use all columns if columns query param is missing
-  const columns = searchParams!.get('columns')!.split(',')
+  let columns = searchParams?.get('columns')?.split(',') || ['root']
+
   let kanaQuiz: any[] = []
   if (columns.includes("root")) {
     kana.forEach(char => {if (char.romanization.length === 1) kanaQuiz.push(char) });
