@@ -6,5 +6,5 @@ export default function Head() {
       <meta name="description" content="Learn hiragana & katakana" />
       <link rel="icon" href="/favicon.ico" />
     </>
-  )
+  );
 }
