@@ -1,521 +1,417 @@
 [
   {
-    "char_id": "a.svg",
     "character": "あ",
     "romanization": "a"
   },
   {
-    "char_id": "i.svg",
     "character": "い",
     "romanization": "i"
   },
   {
-    "char_id": "u.svg",
     "character": "う",
     "romanization": "u"
   },
   {
-    "char_id": "e.svg",
     "character": "え",
     "romanization": "e"
   },
   {
-    "char_id": "o.svg",
     "character": "お",
     "romanization": "o"
   },
   {
-    "char_id": "ka.svg",
     "character": "か",
     "romanization": "ka"
   },
   {
-    "char_id": "ki.svg",
     "character": "き",
     "romanization": "ki"
   },
   {
-    "char_id": "ku.svg",
     "character": "く",
     "romanization": "ku"
   },
   {
-    "char_id": "ke.svg",
     "character": "け",
     "romanization": "ke"
   },
   {
-    "char_id": "ko.svg",
     "character": "こ",
     "romanization": "ko"
   },
   {
-    "char_id": "sa.svg",
     "character": "さ",
     "romanization": "sa"
   },
   {
-    "char_id": "shi.svg",
     "character": "し",
     "romanization": "shi"
   },
   {
-    "char_id": "su.svg",
     "character": "す",
     "romanization": "su"
   },
   {
-    "char_id": "se.svg",
     "character": "せ",
     "romanization": "se"
   },
   {
-    "char_id": "so.svg",
     "character": "そ",
     "romanization": "so"
   },
   {
-    "char_id": "ta.svg",
     "character": "た",
     "romanization": "ta"
   },
   {
-    "char_id": "chi.svg",
     "character": "ち",
     "romanization": "chi"
   },
   {
-    "char_id": "tsu.svg",
     "character": "つ",
     "romanization": "tsu"
   },
   {
-    "char_id": "te.svg",
     "character": "て",
     "romanization": "te"
   },
   {
-    "char_id": "to.svg",
     "character": "と",
     "romanization": "to"
   },
   {
-    "char_id": "na.svg",
     "character": "な",
     "romanization": "na"
   },
   {
-    "char_id": "ni.svg",
     "character": "に",
     "romanization": "ni"
   },
   {
-    "char_id": "nu.svg",
     "character": "ぬ",
     "romanization": "nu"
   },
   {
-    "char_id": "ne.svg",
     "character": "ね",
     "romanization": "ne"
   },
   {
-    "char_id": "no.svg",
     "character": "の",
     "romanization": "no"
   },
   {
-    "char_id": "ha.svg",
     "character": "は",
     "romanization": "ha"
   },
   {
-    "char_id": "hi.svg",
     "character": "ひ",
     "romanization": "hi"
   },
   {
-    "char_id": "fu.svg",
     "character": "ふ",
     "romanization": "fu"
   },
   {
-    "char_id": "he.svg",
     "character": "へ",
     "romanization": "he"
   },
   {
-    "char_id": "ho.svg",
     "character": "ほ",
     "romanization": "ho"
   },
   {
-    "char_id": "ma.svg",
     "character": "ま",
     "romanization": "ma"
   },
   {
-    "char_id": "mi.svg",
     "character": "み",
     "romanization": "mi"
   },
   {
-    "char_id": "mu.svg",
     "character": "む",
     "romanization": "mu"
   },
   {
-    "char_id": "me.svg",
     "character": "め",
     "romanization": "me"
   },
   {
-    "char_id": "mo.svg",
     "character": "も",
     "romanization": "mo"
   },
   {
-    "char_id": "ya.svg",
     "character": "や",
     "romanization": "ya"
   },
   {
-    "char_id": "yu.svg",
     "character": "ゆ",
     "romanization": "yu"
   },
   {
-    "char_id": "yo.svg",
     "character": "よ",
     "romanization": "yo"
   },
   {
-    "char_id": "ra.svg",
     "character": "ら",
     "romanization": "ra"
   },
   {
-    "char_id": "ri.svg",
     "character": "り",
     "romanization": "ri"
   },
   {
-    "char_id": "ru.svg",
     "character": "る",
     "romanization": "ru"
   },
   {
-    "char_id": "re.svg",
     "character": "れ",
     "romanization": "re"
   },
   {
-    "char_id": "ro.svg",
     "character": "ろ",
     "romanization": "ro"
   },
   {
-    "char_id": "wa.svg",
     "character": "わ",
     "romanization": "wa"
   },
   {
-    "char_id": "wo.svg",
     "character": "を",
     "romanization": "wo"
   },
   {
-    "char_id": "n.svg",
     "character": "ん",
     "romanization": "n"
   },
   {
-    "char_id": "ga.svg",
     "character": "が",
     "romanization": "ga"
   },
   {
-    "char_id": "gi.svg",
     "character": "ぎ",
     "romanization": "gi"
   },
   {
-    "char_id": "gu.svg",
     "character": "ぐ",
     "romanization": "gu"
   },
   {
-    "char_id": "ge.svg",
     "character": "げ",
     "romanization": "ge"
   },
   {
-    "char_id": "go.svg",
     "character": "ご",
     "romanization": "go"
   },
   {
-    "char_id": "za.svg",
     "character": "ざ",
     "romanization": "za"
   },
   {
-    "char_id": "ji.svg",
     "character": "じ",
     "romanization": "ji"
   },
   {
-    "char_id": "zu.svg",
     "character": "ず",
     "romanization": "zu"
   },
   {
-    "char_id": "ze.svg",
     "character": "ぜ",
     "romanization": "ze"
   },
   {
-    "char_id": "zo.svg",
     "character": "ぞ",
     "romanization": "zo"
   },
   {
-    "char_id": "da.svg",
     "character": "だ",
     "romanization": "da"
   },
   {
-    "char_id": "di.svg",
     "character": "ぢ",
     "romanization": "ji"
   },
   {
-    "char_id": "du.svg",
     "character": "づ",
     "romanization": "zu"
   },
   {
-    "char_id": "de.svg",
     "character": "で",
     "romanization": "de"
   },
   {
-    "char_id": "do.svg",
     "character": "ど",
     "romanization": "do"
   },
   {
-    "char_id": "ba.svg",
     "character": "ば",
     "romanization": "ba"
   },
   {
-    "char_id": "bi.svg",
     "character": "び",
     "romanization": "bi"
   },
   {
-    "char_id": "bu.svg",
     "character": "ぶ",
     "romanization": "bu"
   },
   {
-    "char_id": "be.svg",
     "character": "べ",
     "romanization": "be"
   },
   {
-    "char_id": "bo.svg",
     "character": "ぼ",
     "romanization": "bo"
   },
   {
-    "char_id": "pa.svg",
     "character": "ぱ",
     "romanization": "pa"
   },
   {
-    "char_id": "pi.svg",
     "character": "ぴ",
     "romanization": "pi"
   },
   {
-    "char_id": "pu.svg",
     "character": "ぷ",
     "romanization": "pu"
   },
   {
-    "char_id": "pe.svg",
     "character": "ぺ",
     "romanization": "pe"
   },
   {
-    "char_id": "po.svg",
     "character": "ぽ",
     "romanization": "po"
   },
   {
-    "char_id": "kya.svg",
     "character": "きゃ",
     "romanization": "kya"
   },
   {
-    "char_id": "kyu.svg",
     "character": "きゅ",
     "romanization": "kyu"
   },
   {
-    "char_id": "kyo.svg",
     "character": "きょ",
     "romanization": "kyo"
   },
   {
-    "char_id": "sha.svg",
     "character": "しゃ",
     "romanization": "sha"
   },
   {
-    "char_id": "shu.svg",
     "character": "しゅ",
     "romanization": "shu"
   },
   {
-    "char_id": "sho.svg",
     "character": "しょ",
     "romanization": "sho"
   },
   {
-    "char_id": "cha.svg",
     "character": "ちゃ",
     "romanization": "cha"
   },
   {
-    "char_id": "chu.svg",
     "character": "ちゅ",
     "romanization": "chu"
   },
   {
-    "char_id": "cho.svg",
     "character": "ちょ",
     "romanization": "cho"
   },
   {
-    "char_id": "nya.svg",
     "character": "にゃ",
     "romanization": "nya"
   },
   {
-    "char_id": "nyu.svg",
     "character": "にゅ",
     "romanization": "nyu"
   },
   {
-    "char_id": "nyo.svg",
     "character": "にょ",
     "romanization": "nyo"
   },
   {
-    "char_id": "hya.svg",
     "character": "ひゃ",
     "romanization": "hya"
   },
   {
-    "char_id": "hyu.svg",
     "character": "ひゅ",
     "romanization": "hyu"
   },
   {
-    "char_id": "hyo.svg",
     "character": "ひょ",
     "romanization": "hyo"
   },
   {
-    "char_id": "mya.svg",
     "character": "みゃ",
     "romanization": "mya"
   },
   {
-    "char_id": "myu.svg",
     "character": "みゅ",
     "romanization": "myu"
   },
   {
-    "char_id": "myo.svg",
     "character": "みょ",
     "romanization": "myo"
   },
   {
-    "char_id": "rya.svg",
     "character": "りゃ",
     "romanization": "rya"
   },
   {
-    "char_id": "ryu.svg",
     "character": "りゅ",
     "romanization": "ryu"
   },
   {
-    "char_id": "ryo.svg",
     "character": "りょ",
     "romanization": "ryo"
   },
   {
-    "char_id": "gya.svg",
     "character": "ぎゃ",
     "romanization": "gya"
   },
   {
-    "char_id": "gyu.svg",
     "character": "ぎゅ",
     "romanization": "gyu"
   },
   {
-    "char_id": "gyo.svg",
     "character": "ぎょ",
     "romanization": "gyo"
   },
   {
-    "char_id": "ja.svg",
     "character": "じゃ",
     "romanization": "ja"
   },
   {
-    "char_id": "ju.svg",
     "character": "じゅ",
     "romanization": "ju"
   },
   {
-    "char_id": "jo.svg",
     "character": "じょ",
     "romanization": "jo"
   },
   {
-    "char_id": "bya.svg",
     "character": "びゃ",
     "romanization": "bya"
   },
   {
-    "char_id": "byu.svg",
     "character": "びゅ",
     "romanization": "byu"
   },
   {
-    "char_id": "byo.svg",
     "character": "にょ",
     "romanization": "byo"
   },
   {
-    "char_id": "pya.svg",
     "character": "ぴゃ",
     "romanization": "pya"
   },
   {
-    "char_id": "pyu.svg",
     "character": "ぴゅ",
     "romanization": "pyu"
   },
   {
-    "char_id": "pyo.svg",
     "character": "ぴょ",
     "romanization": "pyo"
   }

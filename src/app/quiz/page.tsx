@@ -8,16 +8,17 @@ import Katakana from '../katakana.json';
 import shuffle from '../functions/shuffle';
 import Header from '../components/header';
 import NonSSRWrapper from '../components/no-ssr-wrapper';
+import { KanaType } from '@/types/kana';
 
 function Quiz() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const kana = searchParams.get('kana') === 'hiragana' ? Hiragana : Katakana;
-  let columns = searchParams?.get('columns')?.split(',') || ['root'];
+  const columns = searchParams?.get('columns')?.split(',') || ['root'];
 
-  let kanaQuiz: any[] = [];
+  let kanaQuiz: KanaType[] = [];
   if (columns.includes('root')) {
-    kana.forEach(char => {
+    kana.forEach((char) => {
       if (char.romanization.length === 1) kanaQuiz.push(char);
     });
     // remove 'n' from root kana
@@ -46,12 +47,10 @@ function Quiz() {
   kanaQuiz = kanaQuiz.filter(item => !(item.character.length === 2));
 
   if (columns.includes('h')) {
-    // @ts-ignore
     const found = kana.filter(item => item.romanization === 'fu');
     kanaQuiz.push(found[0]);
   }
   if (columns.includes('t')) {
-    // @ts-ignore
     const found = kana.filter(item => item.romanization === 'chi');
     kanaQuiz.push(found[0]);
   }
@@ -62,8 +61,6 @@ function Quiz() {
     });
   }
 
-  // @ts-ignore
-  // TODO: fix the ts error on line below
   const shuffledKana = shuffle(kanaQuiz);
 
   const [kanaArray, setKanaArray] = useState(shuffledKana);
@@ -75,7 +72,7 @@ function Quiz() {
   if (currentKana === undefined) {
     imageSrc = `/hiragana/a.svg`;
   } else if (kana === Hiragana) {
-    imageSrc = `/hiragana/${currentKana.char_id}`;
+    imageSrc = `/hiragana/${currentKana.romanization}.svg`;
   } else {
     imageSrc = `/katakana/${currentKana.romanization}.svg`;
   }
@@ -90,7 +87,7 @@ function Quiz() {
         `/?correct=${correct.toString()}&incorrect=${incorrect.toString()}&remaining=0`
       );
     }
-    let userInput: string = (e.target as HTMLFormElement).kana.value;
+    const userInput: string = (e.target as HTMLFormElement).kana.value;
     if (userInput === currentKana.romanization) {
       newKanaArray.shift();
       newKanaArray = shuffle(newKanaArray);

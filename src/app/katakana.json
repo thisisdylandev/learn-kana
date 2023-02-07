@@ -1,527 +1,422 @@
 [
   {
     "character": "ア",
-    "romanization": "a",
-    "type": "gojuuon"
+    "romanization": "a"
   },
   {
     "character": "イ",
-    "romanization": "i",
-    "type": "gojuuon"
+    "romanization": "i"
   },
   {
     "character": "ウ",
-    "romanization": "u",
-    "type": "gojuuon"
+    "romanization": "u"
   },
   {
     "character": "エ",
-    "romanization": "e",
-    "type": "gojuuon"
+    "romanization": "e"
   },
   {
     "character": "オ",
-    "romanization": "o",
-    "type": "gojuuon"
+    "romanization": "o"
   },
   {
     "character": "カ",
-    "romanization": "ka",
-    "type": "gojuuon"
+    "romanization": "ka"
   },
   {
     "character": "キ",
-    "romanization": "ki",
-    "type": "gojuuon"
+    "romanization": "ki"
   },
   {
     "character": "ク",
-    "romanization": "ku",
-    "type": "gojuuon"
+    "romanization": "ku"
   },
   {
     "character": "ケ",
-    "romanization": "ke",
-    "type": "gojuuon"
+    "romanization": "ke"
   },
   {
     "character": "コ",
-    "romanization": "ko",
-    "type": "gojuuon"
+    "romanization": "ko"
   },
   {
     "character": "サ",
-    "romanization": "sa",
-    "type": "gojuuon"
+    "romanization": "sa"
   },
   {
     "character": "シ",
-    "romanization": "shi",
-    "type": "gojuuon"
+    "romanization": "shi"
   },
   {
     "character": "ス",
-    "romanization": "su",
-    "type": "gojuuon"
+    "romanization": "su"
   },
   {
     "character": "セ",
-    "romanization": "se",
-    "type": "gojuuon"
+    "romanization": "se"
   },
   {
     "character": "ソ",
-    "romanization": "so",
-    "type": "gojuuon"
+    "romanization": "so"
   },
   {
     "character": "タ",
-    "romanization": "ta",
-    "type": "gojuuon"
+    "romanization": "ta"
   },
   {
     "character": "チ",
-    "romanization": "chi",
-    "type": "gojuuon"
+    "romanization": "chi"
   },
   {
     "character": "ツ",
-    "romanization": "tsu",
-    "type": "gojuuon"
+    "romanization": "tsu"
   },
   {
     "character": "テ",
-    "romanization": "te",
-    "type": "gojuuon"
+    "romanization": "te"
   },
   {
     "character": "ト",
-    "romanization": "to",
-    "type": "gojuuon"
+    "romanization": "to"
   },
   {
     "character": "ナ",
-    "romanization": "na",
-    "type": "gojuuon"
+    "romanization": "na"
   },
   {
     "character": "ニ",
-    "romanization": "ni",
-    "type": "gojuuon"
+    "romanization": "ni"
   },
   {
     "character": "ヌ",
-    "romanization": "nu",
-    "type": "gojuuon"
+    "romanization": "nu"
   },
   {
     "character": "ネ",
-    "romanization": "ne",
-    "type": "gojuuon"
+    "romanization": "ne"
   },
   {
     "character": "ノ",
-    "romanization": "no",
-    "type": "gojuuon"
+    "romanization": "no"
   },
   {
     "character": "ハ",
-    "romanization": "ha",
-    "type": "gojuuon"
+    "romanization": "ha"
   },
   {
     "character": "ヒ",
-    "romanization": "hi",
-    "type": "gojuuon"
+    "romanization": "hi"
   },
   {
     "character": "フ",
-    "romanization": "hu",
-    "type": "gojuuon"
+    "romanization": "hu"
   },
   {
     "character": "ヘ",
-    "romanization": "he",
-    "type": "gojuuon"
+    "romanization": "he"
   },
   {
     "character": "ホ",
-    "romanization": "ho",
-    "type": "gojuuon"
+    "romanization": "ho"
   },
   {
     "character": "マ",
-    "romanization": "ma",
-    "type": "gojuuon"
+    "romanization": "ma"
   },
   {
     "character": "ミ",
-    "romanization": "mi",
-    "type": "gojuuon"
+    "romanization": "mi"
   },
   {
     "character": "ム",
-    "romanization": "mu",
-    "type": "gojuuon"
+    "romanization": "mu"
   },
   {
     "character": "メ",
-    "romanization": "me",
-    "type": "gojuuon"
+    "romanization": "me"
   },
   {
     "character": "モ",
-    "romanization": "mo",
-    "type": "gojuuon"
+    "romanization": "mo"
   },
   {
     "character": "ヤ",
-    "romanization": "ya",
-    "type": "gojuuon"
+    "romanization": "ya"
   },
   {
     "character": "ユ",
-    "romanization": "yu",
-    "type": "gojuuon"
+    "romanization": "yu"
   },
   {
     "character": "ヨ",
-    "romanization": "yo",
-    "type": "gojuuon"
+    "romanization": "yo"
   },
   {
     "character": "ラ",
-    "romanization": "ra",
-    "type": "gojuuon"
+    "romanization": "ra"
   },
   {
     "character": "リ",
-    "romanization": "ri",
-    "type": "gojuuon"
+    "romanization": "ri"
   },
   {
     "character": "ル",
-    "romanization": "ru",
-    "type": "gojuuon"
+    "romanization": "ru"
   },
   {
     "character": "レ",
-    "romanization": "re",
-    "type": "gojuuon"
+    "romanization": "re"
   },
   {
     "character": "ロ",
-    "romanization": "ro",
-    "type": "gojuuon"
+    "romanization": "ro"
   },
   {
     "character": "ワ",
-    "romanization": "wa",
-    "type": "gojuuon"
+    "romanization": "wa"
   },
   {
     "character": "ヲ",
-    "romanization": "wo",
-    "type": "gojuuon"
+    "romanization": "wo"
   },
   {
     "character": "ン",
-    "romanization": "n",
-    "type": "gojuuon"
+    "romanization": "n"
   },
   {
     "character": "ガ",
-    "romanization": "ga",
-    "type": "dakuon"
+    "romanization": "ga"
   },
   {
     "character": "ギ",
-    "romanization": "gi",
-    "type": "dakuon"
+    "romanization": "gi"
   },
   {
     "character": "グ",
-    "romanization": "gu",
-    "type": "dakuon"
+    "romanization": "gu"
   },
   {
     "character": "ゲ",
-    "romanization": "ge",
-    "type": "dakuon"
+    "romanization": "ge"
   },
   {
     "character": "ゴ",
-    "romanization": "go",
-    "type": "dakuon"
+    "romanization": "go"
   },
   {
     "character": "ザ",
-    "romanization": "za",
-    "type": "dakuon"
+    "romanization": "za"
   },
   {
     "character": "ジ",
-    "romanization": "ji",
-    "type": "dakuon"
+    "romanization": "ji"
   },
   {
     "character": "ズ",
-    "romanization": "zu",
-    "type": "dakuon"
+    "romanization": "zu"
   },
   {
     "character": "ゼ",
-    "romanization": "ze",
-    "type": "dakuon"
+    "romanization": "ze"
   },
   {
     "character": "ゾ",
-    "romanization": "zo",
-    "type": "dakuon"
+    "romanization": "zo"
   },
   {
     "character": "ダ",
-    "romanization": "da",
-    "type": "dakuon"
+    "romanization": "da"
   },
   {
     "character": "ヂ",
-    "romanization": "ji",
-    "type": "dakuon"
+    "romanization": "ji"
   },
   {
     "character": "ヅ",
-    "romanization": "zu",
-    "type": "dakuon"
+    "romanization": "zu"
   },
   {
     "character": "デ",
-    "romanization": "de",
-    "type": "dakuon"
+    "romanization": "de"
   },
   {
     "character": "ド",
-    "romanization": "do",
-    "type": "dakuon"
+    "romanization": "do"
   },
   {
     "character": "バ",
-    "romanization": "ba",
-    "type": "dakuon"
+    "romanization": "ba"
   },
   {
     "character": "ビ",
-    "romanization": "bi",
-    "type": "dakuon"
+    "romanization": "bi"
   },
   {
     "character": "ブ",
-    "romanization": "bu",
-    "type": "dakuon"
+    "romanization": "bu"
   },
   {
     "character": "ベ",
-    "romanization": "be",
-    "type": "dakuon"
+    "romanization": "be"
   },
   {
     "character": "ボ",
-    "romanization": "bo",
-    "type": "dakuon"
+    "romanization": "bo"
   },
   {
     "character": "パ",
-    "romanization": "pa",
-    "type": "handakuon"
+    "romanization": "pa"
   },
   {
     "character": "ピ",
-    "romanization": "pi",
-    "type": "handakuon"
+    "romanization": "pi"
   },
   {
     "character": "プ",
-    "romanization": "pu",
-    "type": "handakuon"
+    "romanization": "pu"
   },
   {
     "character": "ペ",
-    "romanization": "pe",
-    "type": "handakuon"
+    "romanization": "pe"
   },
   {
     "character": "ポ",
-    "romanization": "po",
-    "type": "handakuon"
+    "romanization": "po"
   },
   {
     "character": "ッ",
-    "romanization": "(pause)",
-    "type": "sokuon"
+    "romanization": "(pause)"
   },
   {
     "character": "キャ",
-    "romanization": "kya",
-    "type": "youon"
+    "romanization": "kya"
   },
   {
     "character": "キュ",
-    "romanization": "kyu",
-    "type": "youon"
+    "romanization": "kyu"
   },
   {
     "character": "キョ",
-    "romanization": "kyo",
-    "type": "youon"
+    "romanization": "kyo"
   },
   {
     "character": "シャ",
-    "romanization": "sha",
-    "type": "youon"
+    "romanization": "sha"
   },
   {
     "character": "シュ",
-    "romanization": "shu",
-    "type": "youon"
+    "romanization": "shu"
   },
   {
     "character": "ショ",
-    "romanization": "sho",
-    "type": "youon"
+    "romanization": "sho"
   },
   {
     "character": "チャ",
-    "romanization": "cha",
-    "type": "youon"
+    "romanization": "cha"
   },
   {
     "character": "チュ",
-    "romanization": "chu",
-    "type": "youon"
+    "romanization": "chu"
   },
   {
     "character": "チョ",
-    "romanization": "cho",
-    "type": "youon"
+    "romanization": "cho"
   },
   {
     "character": "ニャ",
-    "romanization": "nya",
-    "type": "youon"
+    "romanization": "nya"
   },
   {
     "character": "ニュ",
-    "romanization": "nyu",
-    "type": "youon"
+    "romanization": "nyu"
   },
   {
     "character": "ニョ",
-    "romanization": "nyo",
-    "type": "youon"
+    "romanization": "nyo"
   },
   {
     "character": "ヒャ",
-    "romanization": "hya",
-    "type": "youon"
+    "romanization": "hya"
   },
   {
     "character": "ヒュ",
-    "romanization": "hyu",
-    "type": "youon"
+    "romanization": "hyu"
   },
   {
     "character": "ヒョ",
-    "romanization": "hyo",
-    "type": "youon"
+    "romanization": "hyo"
   },
   {
     "character": "ミャ",
-    "romanization": "mya",
-    "type": "youon"
+    "romanization": "mya"
   },
   {
     "character": "ミュ",
-    "romanization": "myu",
-    "type": "youon"
+    "romanization": "myu"
   },
   {
     "character": "ミョ",
-    "romanization": "myo",
-    "type": "youon"
+    "romanization": "myo"
   },
   {
     "character": "リャ",
-    "romanization": "rya",
-    "type": "youon"
+    "romanization": "rya"
   },
   {
     "character": "リュ",
-    "romanization": "ryu",
-    "type": "youon"
+    "romanization": "ryu"
   },
   {
     "character": "リョ",
-    "romanization": "ryo",
-    "type": "youon"
+    "romanization": "ryo"
   },
   {
     "character": "ギャ",
-    "romanization": "gya",
-    "type": "youon"
+    "romanization": "gya"
   },
   {
     "character": "ギュ",
-    "romanization": "gyu",
-    "type": "youon"
+    "romanization": "gyu"
   },
   {
     "character": "ギョ",
-    "romanization": "gyo",
-    "type": "youon"
+    "romanization": "gyo"
   },
   {
     "character": "ジャ",
-    "romanization": "ja",
-    "type": "youon"
+    "romanization": "ja"
   },
   {
     "character": "ジュ",
-    "romanization": "ju",
-    "type": "youon"
+    "romanization": "ju"
   },
   {
     "character": "ジョ",
-    "romanization": "jo",
-    "type": "youon"
+    "romanization": "jo"
   },
   {
     "character": "ビャ",
-    "romanization": "bya",
-    "type": "youon"
+    "romanization": "bya"
   },
   {
     "character": "ビュ",
-    "romanization": "byu",
-    "type": "youon"
+    "romanization": "byu"
   },
   {
     "character": "ビョ",
-    "romanization": "byo",
-    "type": "youon"
+    "romanization": "byo"
   },
   {
     "character": "ピャ",
-    "romanization": "pya",
-    "type": "youon"
+    "romanization": "pya"
   },
   {
     "character": "ピュ",
-    "romanization": "pyu",
-    "type": "youon"
+    "romanization": "pyu"
   },
   {
     "character": "ピョ",
-    "romanization": "pyo",
-    "type": "youon"
+    "romanization": "pyo"
   }
 ]
