@@ -1,3 +1,4 @@
+'use strict'
 'use client'; // this is a client component
 
 import { useState } from 'react';
@@ -8,13 +9,14 @@ import Katakana from '../katakana.json';
 import shuffle from '../functions/shuffle';
 import Header from '../components/header';
 import NonSSRWrapper from '../components/no-ssr-wrapper';
-import { KanaType } from '@/types/kana';
+import type { KanaType } from '@/types/kana';
+import type { HeaderType } from '@/types/header';
 
 function Quiz() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const kana = searchParams.get('kana') === 'hiragana' ? Hiragana : Katakana;
-  const columns = searchParams?.get('columns')?.split(',') || ['root'];
+  const kana: KanaType[] = searchParams.get('kana') === 'hiragana' ? Hiragana : Katakana;
+  const columns: string[] = searchParams?.get('columns')?.split(',') || ['root'];
 
   let kanaQuiz: KanaType[] = [];
   if (columns.includes('root')) {
@@ -61,13 +63,14 @@ function Quiz() {
     });
   }
 
-  const shuffledKana = shuffle(kanaQuiz);
+  const shuffledKana: KanaType[] = shuffle(kanaQuiz);
 
-  const [kanaArray, setKanaArray] = useState(shuffledKana);
-  const [currentKana, setCurrentKana] = useState(kanaArray[0]);
-  const [correct, setCorrect] = useState(0);
-  const [incorrect, setIncorrect] = useState(0);
-  const [remaining, setRemaining] = useState(kanaQuiz.length);
+  const [kanaArray, setKanaArray] = useState<KanaType[]>(shuffledKana);
+  const [currentKana, setCurrentKana] = useState<KanaType>(kanaArray[0]);
+  const [correct, setCorrect] = useState<number>(0);
+  const [incorrect, setIncorrect] = useState<number>(0);
+  const [remaining, setRemaining] = useState<number>(kanaQuiz.length);
+
   let imageSrc = '';
   if (currentKana === undefined) {
     imageSrc = `/hiragana/a.svg`;
@@ -79,8 +82,8 @@ function Quiz() {
 
   const updateKana = (e: React.FormEvent) => {
     e.preventDefault();
-    let newKanaArray = kanaArray;
-    const testArray = Array.from(kanaArray);
+    let newKanaArray: KanaType[] = kanaArray;
+    const testArray: KanaType[] = Array.from(kanaArray);
     testArray.shift();
     if (testArray.length === 0) {
       router.push(
@@ -108,7 +111,7 @@ function Quiz() {
     }
   };
 
-  const headerProps = {
+  const headerProps: HeaderType = {
     correct: correct.toString(),
     incorrect: incorrect.toString(),
     remaining: remaining.toString(),

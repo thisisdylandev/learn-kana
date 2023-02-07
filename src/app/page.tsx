@@ -1,17 +1,19 @@
+'use strict';
 'use client'; // this is a client component
 
 import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Header from './components/header';
+import type { HeaderType } from '@/types/header';
 
 function Home() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [kanaType, setKanaType] = useState('hiragana');
+  const [kanaType, setKanaType] = useState<string>('hiragana');
   const [columns, setColumns] = useState<string[]>([]);
-  const [isDisabled, setIsDisabled] = useState(true);
+  const [isDisabled, setIsDisabled] = useState<boolean>(true);
 
-  const headerProps = {
+  const headerProps: HeaderType = {
     correct: searchParams.get('correct') || '0',
     incorrect: searchParams.get('incorrect') || '0',
     remaining: searchParams.get('remaining') || '0',
@@ -20,7 +22,7 @@ function Home() {
   const handleCheckboxClick = (column: string) => {
     let queryColumns = columns;
     if (queryColumns.includes(column)) {
-      queryColumns = queryColumns.filter(item => item !== column);
+      queryColumns = queryColumns.filter((item: string) => item !== column);
     } else {
       queryColumns.push(column);
     }
@@ -30,7 +32,7 @@ function Home() {
 
   const handleButtonClick = () => {
     let query = `kana=${kanaType}&columns=`;
-    columns.forEach(item => (query = query + `${item},`));
+    columns.forEach((item: string) => (query = query + `${item},`));
     // remove trailing comma
     query = query.substring(0, query.length - 1);
     router.push(`quiz?${query}`);

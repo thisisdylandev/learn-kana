@@ -1,12 +1,9 @@
+'use strict';
+
 import Link from 'next/link';
+import type { HeaderType } from '@/types/header';
 
-interface Props {
-  correct: string;
-  incorrect: string;
-  remaining: string;
-}
-
-const Header = (props: Props) => (
+const Header = (props: HeaderType) => (
   <div className="navbar bg-base-100">
     <div className="flex-1">
       <Link href="/" className="btn btn-ghost normal-case text-xl">

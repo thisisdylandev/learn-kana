@@ -1,6 +1,8 @@
+'use strict';
+
 import dynamic from 'next/dynamic';
 import React from 'react';
-import { PropsWithChildren } from 'react';
+import type { PropsWithChildren } from 'react';
 
 const NonSSRWrapper = (props: PropsWithChildren) => (
   <React.Fragment>{props.children}</React.Fragment>
