@@ -46,7 +46,7 @@ function Home() {
             <div className="col-span-2 mx-auto">
               <div className="form-control mx-auto">
                 <label className="label cursor-pointer">
-                  <input type="radio" name="kana" checked className="radio mr-5" onChange={() => setKanaType('hiragana')} />
+                  <input type="radio" name="kana" className="radio mr-5" onChange={() => setKanaType('hiragana')} />
                   <span className="label-text">HIRAGANA</span> 
                 </label>
               </div>
