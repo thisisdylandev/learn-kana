@@ -104,7 +104,7 @@ function Quiz() {
     }
     if (kanaArray.length === 0) {
       router.push(
-        `/?correct=${correct.toString()}&incorrect=${incorrect.toString()}&remaining=0`
+        `/?correct=${(correct + 1).toString()}&incorrect=${incorrect.toString()}&remaining=0`
       );
     }
   };
