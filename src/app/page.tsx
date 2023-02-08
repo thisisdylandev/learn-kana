@@ -41,7 +41,7 @@ function Home() {
   return (
     <>
       <Header {...headerProps} />
-      <section className="min-w-full flex h-screen">
+      <section className="min-w-full flex">
         <div className="m-auto px-10 py-5 bg-white border border-gray-200 rounded-lg shadow">
           <div className="grid grid-cols-2 gap-x-7">
             <h1 className="text-lg font-bold col-span-2">

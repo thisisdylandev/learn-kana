@@ -6,7 +6,7 @@ import type { HeaderType } from 'types/header';
 const Header = (props: HeaderType) => (
   <div className="navbar bg-base-100">
     <div className="flex-1">
-      <Link href="/" className="btn btn-ghost normal-case text-xl">
+      <Link href="/" className="btn btn-primary normal-case text-xl">
         Home
       </Link>
     </div>
