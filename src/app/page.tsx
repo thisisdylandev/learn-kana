@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { init, trackPages } from "insights-js"
 import Header from '@/components/header';
 import type { HeaderType } from 'types/header';
 
@@ -18,6 +19,9 @@ function Home() {
     incorrect: searchParams.get('incorrect') || '0',
     remaining: searchParams.get('remaining') || '0',
   };
+
+  init('xB8NfhlhVcQutMbm');
+  trackPages();
 
   const handleCheckboxClick = (column: string) => {
     let queryColumns = columns;
