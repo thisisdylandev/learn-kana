@@ -73,7 +73,7 @@ function Quiz() {
 
   let imageSrc = '';
   if (currentKana === undefined) {
-    imageSrc = `/loading.svg`;
+    imageSrc = '/loading.svg';
   } else if (kana === Hiragana) {
     imageSrc = `/hiragana/${currentKana.romanization}.svg`;
   } else {
