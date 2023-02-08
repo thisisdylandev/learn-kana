@@ -4,13 +4,13 @@
 import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Image from 'next/image';
-import Hiragana from '../hiragana.json';
-import Katakana from '../katakana.json';
-import shuffle from '../functions/shuffle';
-import Header from '../components/header';
-import NonSSRWrapper from '../components/no-ssr-wrapper';
-import type { KanaType } from '@/types/kana';
-import type { HeaderType } from '@/types/header';
+import Hiragana from '@/hiragana.json';
+import Katakana from '@/katakana.json';
+import shuffle from '@/functions/shuffle';
+import Header from '@/components/header';
+import NonSSRWrapper from '@/components/no-ssr-wrapper';
+import type { KanaType } from 'types/kana';
+import type { HeaderType } from 'types/header';
 
 function Quiz() {
   const router = useRouter();

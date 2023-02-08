@@ -1,7 +1,7 @@
 'use strict';
 
 import Link from 'next/link';
-import type { HeaderType } from '@/types/header';
+import type { HeaderType } from 'types/header';
 
 const Header = (props: HeaderType) => (
   <div className="navbar bg-base-100">

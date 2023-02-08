@@ -3,8 +3,8 @@
 
 import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import Header from './components/header';
-import type { HeaderType } from '@/types/header';
+import Header from '@/components/header';
+import type { HeaderType } from 'types/header';
 
 function Home() {
   const router = useRouter();
